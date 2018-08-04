@@ -1,7 +1,7 @@
 {
   "name": "nodejs-riot-todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Code repository for [https://www.packtpub.com/books/content/simple-todo-list-web-application-nodejs-express-and-riot](https://www.packtpub.com/books/content/simple-todo-list-web-application-nodejs-express-and-riot)",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,17 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "jade": "^1.11.0"
-  }
+    "jade": "^1.11.0",
+    "node-cmd": "^3.0.0",
+    "node-ssh": "^5.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devnic13/riot-express-todo-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devnic13/riot-express-todo-list/issues"
+  },
+  "homepage": "https://github.com/devnic13/riot-express-todo-list#readme"
 }
